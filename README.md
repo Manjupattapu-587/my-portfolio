@@ -81,3 +81,120 @@
 
     </body>
 </html>
+(.css)
+body {
+    margin: 0;
+    background-color:black;
+    color: white;
+ }
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar-left {
+    padding-left: 20px;
+    height: 200px;
+}
+.logo-image {
+    height 500px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color: white;
+}
+.a-element {
+    padding: 10px;
+    margin: 10px;
+font-family:'Times New Roman', Times, serif ;
+font-size: 25px;
+font-weight: bold;
+
+}   
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+} 
+.home-left {
+    width:50vw;
+    padding-right: 100px;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right{
+    width: 50vw;   
+}
+.About {
+  padding: 10px;
+  text-align: center;
+}
+.Abt-h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 192, 255);
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+.ps-h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+.ps-p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Education {
+    text-align: center;
+    padding: 10px;
+}
+.Ed-h1 {
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color :rgb(232, 192, 255);
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+.education-info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Skills {
+    text align: center;
+    padding: 10px;
+}
+.sd-h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(232, 192, 255);
+    letter-spacing:3px ;
+
+}
+.Project{
+    text-align: center;
+    padding: 10px;
+}
+.pd-h1 {
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color :rgb(232, 192, 255);
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+.pd-p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+.social-icon-img {
+    height :50px;
+    padding :20px;
+}
+
+    
+
+
+
+
+
+
